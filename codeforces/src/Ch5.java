@@ -3,7 +3,7 @@ import java.util.Random;
 public class Ch5 {
 	
 	public static void main(String[] args) {
-		randomX();
+		makeGuesses();
 	}
 	
 	public static void showTwos(int number) {
@@ -62,9 +62,15 @@ public class Ch5 {
 	}
 	
 	public static void makeGuesses() {
-		int guesses = 0;
+		int guesses = 1;
 		int guess = generate(1, 50);
-		
+		System.out.println("guess = " + guess);
+		while(guess < 48) {
+			guess = generate(1, 50);
+			System.out.println("guess = " + guess);
+			guesses++;
+		}
+		System.out.println("total guesses = " + guesses);
 	}
 	
 	public static int generate(int min, int max) {
