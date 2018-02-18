@@ -313,7 +313,7 @@ public class Ch5pt2 {
 	}
 	
 	public void printFactors() {
-		
+		//
 	}
 	
 	public void randomWalk() {
