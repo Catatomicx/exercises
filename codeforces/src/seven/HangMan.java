@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class HangMan {
 	public static void main(String[] args) {
-		Scanner input=new Scanner(System.in);
-		String word= "BANANA";
-		char[] key={'B','A','N','A','N', 'A'};
+		Scanner input = new Scanner(System.in);
+		String word = "BANANA";
+		char[] key = {'B','A','N','A','N', 'A'};
 		char ch= '-';
 		String keyChar;
 		int length;
