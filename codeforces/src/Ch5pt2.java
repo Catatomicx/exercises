@@ -35,6 +35,24 @@ public class Ch5pt2 {
 		//System.out.println(hasAnOddDigit(2468)); // false
 		//System.out.println(isAllVowels("eIEiO")); // true
 		//System.out.println(isAllVowels("oink")); // false
+		nums();
+	}
+	
+	public void nums() {
+		int x = generate(2, 10);
+		int y;
+		if(flip() == 1)
+			y = x + 1;
+		else
+			y = x - 1;
+		
+		System.out.println(x);
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println(y);
 	}
 	
 	public boolean isAllVowels(String word) {
