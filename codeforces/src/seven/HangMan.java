@@ -16,7 +16,7 @@ public class HangMan {
 		int count = 0;
 		for(int i = 0; i < key.length; i++)
 			key[i]= '-';
-		
+ 		
 		while(count != length) {
 			System.out.print("Enter your guess: (Turn on Caps)");
 			keyChar = input.next();
