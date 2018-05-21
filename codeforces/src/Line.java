@@ -9,8 +9,6 @@ public class Line {
     }
     
     public Line(int x1, int y1, int x2, int y2) {
-    	//Ordinarily I would add a couple set methods to the Point class
-    	//But I figured the objective for this exercise was to use only what was previously written
         p1 = new Point();
         p2 = new Point();
         p1.setLocation(x1, y1);
